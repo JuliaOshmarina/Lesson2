@@ -9,8 +9,8 @@ public class Chuslo {
             System.out.println(b);
     }
 
-privat static String getMessage() {
-        return a;
+private static String getMessage() {
+        return "a";
     }
 
 }
