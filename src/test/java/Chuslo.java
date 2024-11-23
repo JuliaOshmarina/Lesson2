@@ -4,8 +4,13 @@ public class Chuslo {
         int a = 5;
         int b = 10;
         if (a > b)
-            System.out.println(a);
+            System.out.println(getMessage());
         else
             System.out.println(b);
     }
+
+privat static String getMessage() {
+        return a;
+    }
+
 }
